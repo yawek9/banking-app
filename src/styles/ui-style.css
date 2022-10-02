@@ -1,0 +1,88 @@
+/*
+ * This file is part of Banking App, licensed under GNU GPLv3 license.
+ * Copyright (C) 2022 yawek9
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.button-1 {
+  height: 25px;
+  background-color: #57cf88;
+  line-height: 25px;
+  padding: 1px 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.button-1:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #57cf88;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.button-2 {
+  height: 25px;
+  background-color: white;
+  line-height: 25px;
+  padding: 1px 10px;
+  color: #57cf88;
+  box-shadow: 0 4px 4px hsl(0deg 0% 0% / 0.3);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.button-2:hover {
+  cursor: pointer;
+  background-color: #575958;
+  color: white;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.button-3 {
+  height: 25px;
+  background-color: #575958;
+  line-height: 25px;
+  padding: 1px 10px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.button-3:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #57cf88;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.mobile-button {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #57cf88;
+  color: white;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}

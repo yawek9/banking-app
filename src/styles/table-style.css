@@ -1,0 +1,99 @@
+/*
+ * This file is part of Banking App, licensed under GNU GPLv3 license.
+ * Copyright (C) 2022 yawek9
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 790px;
+}
+
+table {
+  background: #575958;
+  border-radius: 5px;
+  color: #575958;
+  width: 790px;
+  white-space: nowrap;
+  border-spacing: 0;
+  border: 1px solid #575958;
+}
+
+table th {
+  color: white;
+}
+
+table td {
+  background: white;
+  line-height: 25px;
+  border: 1px solid #575958;
+  padding: 0 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 4px;
+}
+
+.pagination {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination .button-3 {
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.pagination .button-3 img {
+  width: 23px;
+  filter: invert(100%) sepia(0%) saturate(7485%)
+          hue-rotate(22deg) brightness(105%) contrast(103%);
+  transition: filter 0.2s ease;
+}
+
+.pagination .button-3:hover img {
+  filter: invert(34%) sepia(4%) saturate(167%)
+          hue-rotate(97deg) brightness(98%) contrast(94%);
+}
+
+@media only screen and (max-width: 900px) {
+  .table-wrapper {
+    max-width: 90vw;
+  }
+}
+
+@media (hover: none) {
+  .button-3:hover {
+    background-color: #575958;
+  }
+
+  .pagination .button-3:hover img {
+    filter: invert(100%) sepia(0%) saturate(7485%)
+            hue-rotate(22deg) brightness(105%) contrast(103%);
+  }
+}
